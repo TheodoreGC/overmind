@@ -126,7 +126,7 @@ async function seed() {
       },
       solutionGenerator: {
         value: ((input: number[]) =>
-          input.reduce((acc, num) => acc * num, 0)).toString(),
+          input.reduce((acc, num) => acc * num, 1)).toString(),
       },
     },
   });
